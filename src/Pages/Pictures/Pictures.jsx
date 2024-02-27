@@ -19,9 +19,9 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/effect-cube';
 
 
-import foto1 from '../../assets/salas/1.png'
+import foto1 from '../../assets/salas/3.png'
 import foto2 from '../../assets/salas/2.png'
-import foto3 from '../../assets/salas/3.png'
+import foto3 from '../../assets/salas/1.png'
 import foto4 from '../../assets/salas/4.png'
 import foto5 from '../../assets/salas/5.png'
 import foto6 from '../../assets/salas/6.png'

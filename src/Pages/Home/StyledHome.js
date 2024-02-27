@@ -40,7 +40,7 @@ justify-content: center;
 .ladoDireito1{
     width: 30%;
     height: 100%;
-    background-color: #3b3bf4;
+    background-color: #3b3bf400;
     border-radius: 10px;
 
 }
