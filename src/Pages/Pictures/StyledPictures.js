@@ -2,7 +2,12 @@ import styled from "styled-components";
 
 export const StyledPictures = styled.section`
 
+background-color: #ffffff;
 background-color: #000000;
+
+
+
+
 
 height: 100vh;
 overflow: hidden;
@@ -41,8 +46,12 @@ justify-content: center;
     background-position: center;
     background-size: cover;
 
-    border: 2px solid #af00ff; /* Cor da borda */
+    /* border: 2px solid #af00ff; 
     box-shadow: 0 0 20px #af00ff, 0 0 40px #af00ff, 0 0 60px #af00ff, 0 0 80px #af00ff, 0 0 100px #af00ff;
+    animation: neon-border-glow 1.5s infinite alternate; */
+
+    border: 2px solid #f7f6f7; 
+    box-shadow: 0 0 20px #f7f6f7, 0 0 40px #f7f6f7, 0 0 60px #f7f6f7, 0 0 80px #f7f6f7, 0 0 100px #f7f6f7;
     animation: neon-border-glow 1.5s infinite alternate;
 
     display: flex;
@@ -52,10 +61,10 @@ justify-content: center;
 }
 @keyframes neon-border-glow {
   from {
-    box-shadow: 0 0 10px #af00ff, 0 0 10px #af00ff, 0 0 60px #af00ff, 0 0 10px #af00ff, 0 0 10px #af00ff;
+    box-shadow: 0 0 10px #f7f6f7, 0 0 10px #f7f6f7, 0 0 60px #f7f6f7, 0 0 10px #f7f6f7, 0 0 10px #f7f6f7;
   }
   to {
-    box-shadow: 0 0 10px #af00ff, 0 0 10px #af00ff, 0 0 70px #af00ff, 0 0 20px #af00ff, 0 0 10px #af00ff;
+    box-shadow: 0 0 10px #f7f6f7, 0 0 10px #f7f6f7, 0 0 70px #f7f6f7, 0 0 20px #f7f6f7, 0 0 10px #f7f6f7;
   }
     
 }
@@ -65,7 +74,7 @@ justify-content: center;
   width: 100%;
   height: 100%;
 
-  border: solid 3px #f9abf6;
+  border: solid 3px #ffffff;
 }
 
 
@@ -91,6 +100,11 @@ justify-content: center;
     padding: 20px;
     border-radius: 10px;
  }
+
+/* .custom-shadow .swiper-slide-shadow-left,
+.custom-shadow .swiper-slide-shadow-right {
+    background: rgba(255, 255, 255, 0.5); 
+} */
 
 
  @media(max-width:900px){

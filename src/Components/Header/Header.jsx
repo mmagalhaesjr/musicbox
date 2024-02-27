@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <StyledHeader>
 
-<h1>LOGO</h1>
+            <a href="/"><h1>LOGO</h1></a>
            
 
             <ul>

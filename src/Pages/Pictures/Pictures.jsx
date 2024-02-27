@@ -17,6 +17,18 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/effect-cube';
 
 
+import foto1 from '../../assets/salas/1.png'
+import foto2 from '../../assets/salas/2.png'
+import foto3 from '../../assets/salas/3.png'
+import foto4 from '../../assets/salas/4.png'
+import foto5 from '../../assets/salas/5.png'
+import foto6 from '../../assets/salas/6.png'
+import foto7 from '../../assets/salas/7.png'
+import foto8 from '../../assets/salas/8.png'
+import foto9 from '../../assets/salas/9.png'
+import foto10 from '../../assets/salas/10.png'
+
+
 
 
 
@@ -29,51 +41,66 @@ export default function Pictures() {
             <div id='container'>
 
                 <Swiper
-                    // modules={[Navigation, Pagination, A11y]}
-                    // navigation
-                    // pagination={{ clickable: true }}
-                    // slidesPerView={window.innerWidth < 700 ? 1 : 3}
-
-                    effect={'cube'}
+                   
+                   effect={'cube'}
                    
                     grabCursor={true}
                     loop={true}
                     cubeEffect={{
                         shadow: true,
                         slideShadows: true,
-                        shadowOffset: 20,
+                        shadowOffset: 50,
                         shadowScale: 0.94,
+                        
                     }}
                     navigation={true}
                     speed={4000}
                     pagination={{ clickable: true }}
                     modules={[EffectCube, Pagination, Navigation, A11y]}
-                    className="mySwiper"
+                    className="mySwiper custom-shadow"
                 >
 
                     <SwiperSlide>
-                        <img src='https://i.pinimg.com/originals/c5/bc/41/c5bc41be8cfb5c889cc18f9e984bb49b.jpg' alt="img" />
+                        <img src={foto1} alt="img" />
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <img src='https://i.pinimg.com/originals/20/b4/6a/20b46a5817b49e8ea7f0931f43d4d7e8.jpg' alt="coworking" />
+                        <img src={foto2} alt="img" />
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <img src='https://i.pinimg.com/736x/aa/ef/ef/aaefef311f7303329d2260f4cfb2f8c2.jpg' alt="coworking" />
+                        <img src={foto3} alt="img" />
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <img src='https://www.eoimalaga.com/chino/wp-content/uploads/2018/04/sala_karaoke.jpg' alt="coworking" />
+                        <img src={foto4} alt="img" />
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <img src='https://s3-eu-west-1.amazonaws.com/prod-ecs-service-web-blog-media/2022/11/sala-de-karaoke.jpg' alt="coworking" />
+                        <img src={foto5} alt="img" />
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <img src='https://www.guiadasemana.com.br/contentFiles/image/2018/01/FEA/galeria/56435_w840h525_1517336694shutterstock-737673166-karaoke-paulista.jpg' alt="coworking" />
+                        <img src={foto6} alt="img" />
                     </SwiperSlide>
+
+                    <SwiperSlide>
+                        <img src={foto7} alt="img" />
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <img src={foto8} alt="img" />
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <img src={foto9} alt="img" />
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <img src={foto10} alt="img" />
+                    </SwiperSlide>
+
+                   
 
 
 

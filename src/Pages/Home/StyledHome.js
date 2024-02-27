@@ -9,11 +9,13 @@ align-items: center;
 justify-content: center;
 
 
+
 /* border: solid 3px #ffffff; */
 
 #container{
     width: 98%;
     height: 100%;
+    
 }
 
 #parteCima{
@@ -40,6 +42,7 @@ justify-content: center;
     height: 100%;
     background-color: #3b3bf4;
     border-radius: 10px;
+
 }
 
 
@@ -47,7 +50,19 @@ justify-content: center;
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    transition: filter 0.3s ease, transform 1s ease;
 }
+
+.ladoDireito1 img:hover {
+    filter: hue-rotate(50deg);
+   
+  }
+  
+  .ladoDireito1:hover h3 {
+    opacity: 1;
+  }
+
+
 
 
 
