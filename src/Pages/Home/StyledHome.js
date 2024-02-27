@@ -45,6 +45,12 @@ justify-content: center;
 
 }
 
+.musicbox{
+    width: 95%;
+    height: 90%;
+  
+}
+
 
 .ladoDireito1 img{
     width: 100%;
@@ -76,18 +82,40 @@ justify-content: center;
     justify-content: center;
     gap: 1%;
 }
-.ladoEsquerdo2{
-    width: 60%;
-    height: 100%;
-    background-color: #f759ca;
-    border-radius: 10px;
-}
 .ladoDireito2{
     width: 40%;
     height: 100%;
     background-color: #79f43b;
     border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
+.ladoEsquerdo2{
+    width: 60%;
+    height: 100%;
+    background-color: #f759ca;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ladoEsquerdo2 a{
+    width: 100%;
+    height: 100%;
+}
+.icone{
+    width: 200px;
+    height: 100%;
+}
+h2{
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: 100;
+}
+
 
 
 `

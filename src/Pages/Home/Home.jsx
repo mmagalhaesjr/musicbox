@@ -1,13 +1,19 @@
 import { StyledHome } from "./StyledHome";
 import Header from '../../Components/Header/Header';
 
-import { Transition } from 'react-transition-group';
 
-import cantores from '../../assets/gif.gif';
 
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
+import { Link } from "react-router-dom";
+
+import cantores from '../../assets/cantores.jpg';
+import calendario from '../../assets/icones/calendario.png'
+import cardapio from '../../assets/icones/cardapio.png'
+import musicbox from '../../assets/icones/musicbox.gif'
+
 
 export default function Home() {
 
@@ -15,19 +21,19 @@ export default function Home() {
         AOS.init();
     }, []);
 
-    
+
     return (
 
 
 
-        
+
         <>
 
 
             <Header />
 
             <StyledHome>
-                <div id="container" 
+                <div id="container"
                     data-aos="zoom-in-up"
                     data-aos-anchor-placement="bottom-bottom"
                     data-aos-duration="800"
@@ -39,17 +45,15 @@ export default function Home() {
 
                         <div className="ladoEsquerdo1">
 
+                            <img className="musicbox" src={musicbox} alt="" />
+
                         </div>
                         <div className="ladoDireito1">
 
-                            <Transition in={true} appear={true} timeout={1000}>
-                                {(state) => (
-                                    <a href="/fotos" className={`fade-${state}`}>
-                                        <img src={cantores} alt="img" />
-                                    </a>
-                                )}
-                            </Transition>
-
+                            <a href="/fotos">
+                                <img src={cantores} alt="img" />
+                                
+                            </a>
 
                         </div>
                     </section>
@@ -61,19 +65,29 @@ export default function Home() {
 
                     <section id="parteBaixo">
 
-                        <div className="ladoEsquerdo2">
 
-                        </div>
-                        <div className="ladoDireito2">
+                        <Link className="ladoEsquerdo2" to={"/reservas"}>
 
-                        </div>
+                            <img className="icone" src={calendario} alt="img" />
+                            <h2>Reservar</h2>
+
+                        </Link>
+
+
+
+                        <Link className="ladoDireito2" to={"/reservas"}>
+
+                            <img className="icone" src={cardapio} alt="" />
+                            <h2>Cardápio</h2>
+
+                        </Link>
 
                     </section>
 
 
-                </div>
+                </div >
 
-            </StyledHome>
+            </StyledHome >
         </>
 
     )
