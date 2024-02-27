@@ -2,7 +2,9 @@ import { StyledPictures } from './StyledPictures';
 
 import Header from '../../Components/Header/Header';
 
-
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCube, Pagination, Navigation, A11y } from 'swiper/modules';
@@ -33,17 +35,26 @@ import foto10 from '../../assets/salas/10.png'
 
 
 export default function Pictures() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
         <StyledPictures>
 
             <Header />
 
-            <div id='container'>
+            <div id='container' 
+                data-aos="zoom-in-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="1500"
+                >
 
                 <Swiper
-                   
-                   effect={'cube'}
-                   
+
+                    effect={'cube'}
+
                     grabCursor={true}
                     loop={true}
                     cubeEffect={{
@@ -51,7 +62,7 @@ export default function Pictures() {
                         slideShadows: true,
                         shadowOffset: 50,
                         shadowScale: 0.94,
-                        
+
                     }}
                     navigation={true}
                     speed={4000}
@@ -100,7 +111,7 @@ export default function Pictures() {
                         <img src={foto10} alt="img" />
                     </SwiperSlide>
 
-                   
+
 
 
 

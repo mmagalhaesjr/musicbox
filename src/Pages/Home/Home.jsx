@@ -5,7 +5,15 @@ import { Transition } from 'react-transition-group';
 
 import cantores from '../../assets/gif.gif';
 
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 export default function Home() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
 
     
     return (
@@ -19,7 +27,11 @@ export default function Home() {
             <Header />
 
             <StyledHome>
-                <div id="container">
+                <div id="container" 
+                    data-aos="zoom-in-up"
+                    data-aos-anchor-placement="bottom-bottom"
+                    data-aos-duration="800"
+                >
 
 
 
