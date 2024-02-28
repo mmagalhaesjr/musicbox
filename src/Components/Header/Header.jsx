@@ -1,19 +1,19 @@
 import { StyledHeader } from "./StyledHeader";
 
-// import logo from '../../assets/logo.gif'
+import logo from '../../assets/logo.png'
 
 export default function Header() {
     return (
         <StyledHeader>
 
-            <a href="/"><h1>LOGO</h1></a>
+            <a href="/"><img src={logo} alt="" /></a>
            
 
-            <ul>
-                <li>texto</li>
-                <li>texto</li>
-                <li>texto</li>
-            </ul>
+            <div id="caixalinks">
+                <p>texto</p>
+                <p>texto</p>
+                <p>texto</p>
+            </div>
          
          
         </StyledHeader>

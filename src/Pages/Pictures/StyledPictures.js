@@ -1,15 +1,11 @@
 import styled from "styled-components";
 
 export const StyledPictures = styled.section`
-
+width: 100%;
+height: 100vh;
 background-color: #ffffff;
 background-color: #000000;
 
-
-
-
-
-height: 100vh;
 overflow: hidden;
 
 display: flex;

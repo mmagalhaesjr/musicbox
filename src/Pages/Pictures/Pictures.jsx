@@ -1,6 +1,6 @@
 import { StyledPictures } from './StyledPictures';
 
-import Header from '../../Components/Header/Header';
+
 
 import { useEffect } from 'react';
 import AOS from 'aos';
@@ -31,6 +31,9 @@ import foto9 from '../../assets/salas/9.png'
 import foto10 from '../../assets/salas/10.png'
 
 
+import Header from '../../Components/Header/Header';
+
+
 
 
 
@@ -41,86 +44,89 @@ export default function Pictures() {
     }, []);
 
     return (
-        <StyledPictures>
 
+        <>
+  
+
+            <StyledPictures>
             <Header />
 
-            <div id='container' 
-                data-aos="zoom-in-up"
-                data-aos-anchor-placement="bottom-bottom"
-                data-aos-duration="1500"
+           
+            <div id='container'
+                    data-aos="zoom-in-up"
+                    data-aos-anchor-placement="bottom-bottom"
+                    data-aos-duration="1500"
                 >
+                
+                {/* <div id='container'> */}
 
-                <Swiper
+                    <Swiper
 
-                    effect={'cube'}
+                        effect={'cube'}
 
-                    grabCursor={true}
-                    loop={true}
-                    cubeEffect={{
-                        shadow: true,
-                        slideShadows: true,
-                        shadowOffset: 50,
-                        shadowScale: 0.94,
+                        grabCursor={true}
+                        loop={true}
+                        cubeEffect={{
+                            shadow: true,
+                            slideShadows: true,
+                            shadowOffset: 50,
+                            shadowScale: 0.94,
 
-                    }}
-                    navigation={true}
-                    speed={4000}
-                    pagination={{ clickable: true }}
-                    modules={[EffectCube, Pagination, Navigation, A11y]}
-                    className="mySwiper custom-shadow"
-                >
+                        }}
+                        navigation={true}
+                        speed={4000}
+                        pagination={{ clickable: true }}
+                        modules={[EffectCube, Pagination, Navigation, A11y]}
+                        className="mySwiper custom-shadow"
+                    >
 
-                    <SwiperSlide>
-                        <img src={foto1} alt="img" />
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={foto1} alt="img" />
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                        <img src={foto2} alt="img" />
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={foto2} alt="img" />
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                        <img src={foto3} alt="img" />
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={foto3} alt="img" />
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                        <img src={foto4} alt="img" />
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={foto4} alt="img" />
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                        <img src={foto5} alt="img" />
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={foto5} alt="img" />
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                        <img src={foto6} alt="img" />
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={foto6} alt="img" />
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                        <img src={foto7} alt="img" />
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={foto7} alt="img" />
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                        <img src={foto8} alt="img" />
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={foto8} alt="img" />
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                        <img src={foto9} alt="img" />
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={foto9} alt="img" />
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                        <img src={foto10} alt="img" />
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={foto10} alt="img" />
+                        </SwiperSlide>
 
+                    </Swiper>
 
+                </div>
+              
 
+            </StyledPictures>
+        </>
 
-
-                </Swiper>
-
-            </div>
-
-
-
-        </StyledPictures>
     );
 }

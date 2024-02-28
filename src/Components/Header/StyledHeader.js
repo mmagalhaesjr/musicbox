@@ -10,29 +10,25 @@ border-radius: 0 0 10px 10px;
 
 display: flex;
 align-items: center;
-justify-content: space-evenly;
+justify-content: center;
 
 background-color: #1d1d1d2d;
 margin-bottom: 15px;
 
-div{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}
-
-img{
-    width:100%;
-    border-radius: 50%;
-}
-
-ul{
+#caixalinks{
     width: 80%;
-    list-style-type: none;
+    
     
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+#caixalinks p{
+    color: #ffffff;
+}
+a img{
+    width: 150px;
+    height: 80px;
 }
 
 

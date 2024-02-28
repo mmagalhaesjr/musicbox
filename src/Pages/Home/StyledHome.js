@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import  {rosa, rosaEscuro, verde, verdeEscuro}  from '../../Components/constant/constant';
 
 export const StyledHome = styled.main`
 width: 100%;
@@ -7,16 +8,15 @@ height: 80vh;
 display: flex;
 align-items: center;
 justify-content: center;
-
-
-
 /* border: solid 3px #ffffff; */
 
 #container{
     width: 98%;
-    height: 100%;
-    
+    height: 100%; 
 }
+
+
+
 
 #parteCima{
     width: 100%;
@@ -40,35 +40,29 @@ justify-content: center;
 .ladoDireito1{
     width: 30%;
     height: 100%;
-    background-color: #3b3bf400;
+    background-color: transparent;
     border-radius: 10px;
-
 }
-
 .musicbox{
     width: 95%;
     height: 90%;
-  
 }
-
-
 .ladoDireito1 img{
     width: 100%;
     height: 100%;
     border-radius: 10px;
     transition: filter 0.3s ease, transform 1s ease;
 }
-
 .ladoDireito1 img:hover {
     filter: hue-rotate(50deg);
-   
   }
-  
   .ladoDireito1:hover h3 {
     opacity: 1;
   }
 
 
+
+  
 
 
 
@@ -85,22 +79,30 @@ justify-content: center;
 .ladoDireito2{
     width: 40%;
     height: 100%;
-    background-color: #79f43b;
+    
+    background-color: ${verde};
     border-radius: 10px;
 
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    &:hover{
+        background-color: ${verdeEscuro};
+    }
 }
 .ladoEsquerdo2{
     width: 60%;
     height: 100%;
-    background-color: #f759ca;
+    background-color: ${rosa};
     border-radius: 10px;
 
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+    &:hover{
+        background-color: ${rosaEscuro}; 
+    }
 }
 .ladoEsquerdo2 a{
     width: 100%;

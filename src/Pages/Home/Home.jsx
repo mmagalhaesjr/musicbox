@@ -75,7 +75,7 @@ export default function Home() {
 
 
 
-                        <Link className="ladoDireito2" to={"/reservas"}>
+                        <Link className="ladoDireito2" to={"/cardapio"}>
 
                             <img className="icone" src={cardapio} alt="" />
                             <h2>Cardápio</h2>
@@ -83,8 +83,6 @@ export default function Home() {
                         </Link>
 
                     </section>
-
-
                 </div >
 
             </StyledHome >
