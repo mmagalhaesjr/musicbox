@@ -6,8 +6,8 @@ import img5 from '../assets/salas/5.png'
 import img6 from '../assets/salas/6.png'
 import img7 from '../assets/salas/7.png'
 import img8 from '../assets/salas/8.png'
-// import img9 from '../../assets/salas/9.png'
-// import img10 from '../../assets/salas/10.png'
+// import img9 from '../assets/salas/9.png'
+// import img10 from '../assets/salas/10.png'
 
 import { amarelo, azul, rosa, verde } from './Cores';
 

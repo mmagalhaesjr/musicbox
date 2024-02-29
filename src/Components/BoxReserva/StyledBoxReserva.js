@@ -14,10 +14,10 @@ export const StyledBoxReservation = styled.div`
     align-items: center;
     justify-content: center;
 
-    .swiper { 
-  width: 200px;
-  height: 200px; 
-  margin-bottom: 2.5%;
+  .swiper { 
+    width: 200px;
+    height: 200px; 
+    margin-bottom: 2.5%;
 }
  
 
@@ -41,6 +41,7 @@ export const StyledBoxReservation = styled.div`
   height: 100%;
   border-radius: 10px;
   border: solid 3px #ffffff;
+
 }
 
 
@@ -51,14 +52,7 @@ export const StyledBoxReservation = styled.div`
 .swiper-pagination-bullet {
   background-color: #F4F3F0;
 }
-/* .swiper-button-prev{
-    color: #000000;
-    width: 30px;
-    height: 50px;
-    padding: 20px;
-    border-radius: 10px;
-    
-} */
+
 
 .swiper-button-next,
 .swiper-button-prev {
@@ -70,10 +64,7 @@ export const StyledBoxReservation = styled.div`
     overflow: hidden; 
 }
 
-/* .custom-shadow .swiper-slide-shadow-left,
-.custom-shadow .swiper-slide-shadow-right {
-    background: rgba(255, 255, 255, 0.5); 
-} */
+
 
 
  @media(max-width:900px){

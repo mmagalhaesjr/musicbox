@@ -10,11 +10,6 @@ import BoxReserva from "../../Components/BoxReserva/BoxReserva";
 import { listaBoxes } from "../../constants/BoxesLista";
 
 
-
-
-
-
-
 export default function Reservation() {
 
     useEffect(() => {

@@ -8,8 +8,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
+
 import 'swiper/css/effect-cube';
 import { StyledBoxReservation } from './StyledBoxReserva';
+
 
 
 export default function BoxReserva(prop) {
@@ -34,7 +36,7 @@ export default function BoxReserva(prop) {
                 speed={4000}
                 pagination={{ clickable: true }}
                 modules={[EffectCube, Pagination, Navigation, A11y]}
-                className="mySwiper custom-shadow"
+
             >
 
                 <SwiperSlide>
