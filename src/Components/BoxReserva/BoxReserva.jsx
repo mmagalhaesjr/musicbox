@@ -9,12 +9,13 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 import 'swiper/css/effect-cube';
+import { StyledBoxReservation } from './StyledBoxReserva';
 
 
 export default function BoxReserva(prop) {
     return (
 
-        <div id="cx">
+        <StyledBoxReservation cor={prop.cor}>
 
             <Swiper
 
@@ -46,6 +47,6 @@ export default function BoxReserva(prop) {
 
             </Swiper>
             <h1>{prop.nome}</h1>
-        </div>
+        </StyledBoxReservation>
     )
 }

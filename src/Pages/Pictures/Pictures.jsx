@@ -100,7 +100,21 @@ export default function Pictures() {
                             <img src={foto6} alt="img" />
                         </SwiperSlide>
 
-                      
+                        {/* <SwiperSlide>
+                            <img src={foto7} alt="img" />
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <img src={foto8} alt="img" />
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <img src={foto9} alt="img" />
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <img src={foto10} alt="img" />
+                        </SwiperSlide> */}
 
                     </Swiper>
 

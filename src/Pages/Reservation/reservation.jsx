@@ -7,12 +7,7 @@ import 'aos/dist/aos.css';
 
 
 import BoxReserva from "../../Components/BoxReserva/BoxReserva";
-import { listaBoxes } from "../../Components/BoxesLista/BoxesLista";
-
-
-
-
-
+import { listaBoxes } from "../../constants/BoxesLista";
 
 
 
