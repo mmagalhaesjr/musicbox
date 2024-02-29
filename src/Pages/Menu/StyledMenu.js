@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { amarelo, azul} from '../../Components/constant/constant';
+import { amarelo, azul } from '../../Components/constant/constant';
 
 export const StyledMenu = styled.section`
 width: 100%;

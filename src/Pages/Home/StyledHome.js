@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import  {rosa, rosaEscuro, verde, verdeEscuro}  from '../../Components/constant/constant';
+import  { rosa, rosaEscuro, verde, verdeEscuro }  from '../../Components/constant/constant';
 
 export const StyledHome = styled.main`
 width: 100%;

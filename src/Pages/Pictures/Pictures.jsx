@@ -19,16 +19,12 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/effect-cube';
 
 
-import foto1 from '../../assets/salas/3.png'
-import foto2 from '../../assets/salas/2.png'
-import foto3 from '../../assets/salas/1.png'
-import foto4 from '../../assets/salas/4.png'
-import foto5 from '../../assets/salas/5.png'
-import foto6 from '../../assets/salas/6.png'
-import foto7 from '../../assets/salas/7.png'
-import foto8 from '../../assets/salas/8.png'
-import foto9 from '../../assets/salas/9.png'
-import foto10 from '../../assets/salas/10.png'
+import foto1 from '../../assets/fotos/3.jpg'
+import foto2 from '../../assets/fotos/2.jpg'
+import foto3 from '../../assets/fotos/1.jpg'
+import foto4 from '../../assets/fotos/4.jpg'
+import foto5 from '../../assets/fotos/5.jpg'
+import foto6 from '../../assets/fotos/6.jpg'
 
 
 import Header from '../../Components/Header/Header';
@@ -104,21 +100,7 @@ export default function Pictures() {
                             <img src={foto6} alt="img" />
                         </SwiperSlide>
 
-                        <SwiperSlide>
-                            <img src={foto7} alt="img" />
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-                            <img src={foto8} alt="img" />
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-                            <img src={foto9} alt="img" />
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-                            <img src={foto10} alt="img" />
-                        </SwiperSlide>
+                      
 
                     </Swiper>
 
