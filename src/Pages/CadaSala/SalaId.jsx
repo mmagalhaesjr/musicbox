@@ -14,7 +14,7 @@ import Sala10 from '../CadaSala/Sala10';
 
 
 export default function SalaId(){
-    const {salaId} = useParams
+    const {salaId} = useParams()
 
 
 const salaComponentes = {
