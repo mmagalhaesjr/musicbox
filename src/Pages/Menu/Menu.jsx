@@ -1,4 +1,4 @@
-import { StyledMenu } from "./StyledMenu";
+import { StyleCxBebida, StyleCxComida, StyledMenu } from "./StyledMenu";
 import Header from '../../Components/Header/Header';
 
 
@@ -15,7 +15,7 @@ export default function Menu() {
                       data-aos-duration="800"
                 >
 
-                    <div id="cxComida">
+                    <StyleCxComida >
 
                         <div className="g">
 
@@ -36,11 +36,11 @@ export default function Menu() {
 
                         </div>
 
-                    </div>
+                    </StyleCxComida>
 
                     {/* ---------------------------- */}
 
-                    <div id="cxBebida">
+                    <StyleCxBebida >
 
                         <div className="g">
 
@@ -61,7 +61,7 @@ export default function Menu() {
 
                         </div>
 
-                    </div>
+                    </StyleCxBebida>
 
                 </div>
             </StyledMenu>

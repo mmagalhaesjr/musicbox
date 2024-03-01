@@ -17,9 +17,9 @@ justify-content: center;
 }
 
 
+`
 
-
-#parteCima{
+export const StyleParteCima = styled.section`
     width: 100%;
     height: 65%;
    
@@ -27,8 +27,8 @@ justify-content: center;
     align-items: center;
     justify-content: center;
     gap: 1%;   
-}
-.ladoEsquerdo1{
+
+    .ladoEsquerdo1{
     width: 70%;
     height: 100%;
     background-color: #e5dcad;
@@ -61,13 +61,9 @@ justify-content: center;
     opacity: 1;
   }
 
+`
 
-
-  
-
-
-
-#parteBaixo{
+export const StyleParteBaixo = styled.section`
     width: 100%;
     height: 30%;
     margin-top: 1%;
@@ -76,8 +72,8 @@ justify-content: center;
     align-items: center;
     justify-content: center;
     gap: 1%;
-}
-.ladoDireito2{
+
+    .ladoDireito2{
     width: 40%;
     height: 100%;
     
@@ -118,7 +114,4 @@ h2{
     color: #ffffff;
     font-weight: 100;
 }
-
-
-
 `

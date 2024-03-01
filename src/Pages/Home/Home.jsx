@@ -1,4 +1,4 @@
-import { StyledHome } from "./StyledHome";
+import { StyleParteBaixo, StyleParteCima, StyledHome } from "./StyledHome";
 import Header from '../../Components/Header/Header';
 
 
@@ -23,13 +23,7 @@ export default function Home() {
 
 
     return (
-
-
-
-
         <>
-
-
             <Header />
 
             <StyledHome>
@@ -41,7 +35,7 @@ export default function Home() {
 
 
 
-                    <section id="parteCima">
+                    <StyleParteCima >
 
                         <div className="ladoEsquerdo1">
 
@@ -56,14 +50,11 @@ export default function Home() {
                             </a>
 
                         </div>
-                    </section>
+                    </StyleParteCima>
 
 
 
-
-
-
-                    <section id="parteBaixo">
+                    <StyleParteBaixo>
 
 
                         <Link className="ladoEsquerdo2" to={"/sala"}>
@@ -82,7 +73,7 @@ export default function Home() {
 
                         </Link>
 
-                    </section>
+                    </StyleParteBaixo>
                 </div >
 
             </StyledHome >

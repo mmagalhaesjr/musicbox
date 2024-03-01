@@ -24,7 +24,10 @@ justify-content: start;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-#cxComida{
+
+`
+
+export const StyleCxComida = styled.section`
     width: 45%;
     height: 90%;
     border: solid 3px #ffffff;
@@ -33,18 +36,8 @@ justify-content: start;
     align-items: center;
     justify-content: start;
     flex-wrap: wrap;
-}
-#cxBebida{
-    width: 45%;
-    height: 90%;
-    border: solid 3px #ffffff;
 
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    flex-wrap: wrap;
-}
-.g{
+    .g{
     width: 70%;
     height: 33%;
     border-radius: 10px;
@@ -58,6 +51,31 @@ justify-content: start;
     background-color: ${amarelo};
     border: solid 3px  #000000;
 }
+`
 
+export const StyleCxBebida = styled.section`
+    width: 45%;
+    height: 90%;
+    border: solid 3px #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+
+    .g{
+    width: 70%;
+    height: 33%;
+    border-radius: 10px;
+    background-color: ${azul};
+    border: solid 3px  #000000;
+}
+.p{
+    width: 30%;
+    height: 33%;
+    border-radius: 10px;
+    background-color: ${amarelo};
+    border: solid 3px  #000000;
+}
 
 `
