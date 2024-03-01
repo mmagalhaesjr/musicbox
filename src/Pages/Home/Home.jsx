@@ -66,7 +66,7 @@ export default function Home() {
                     <section id="parteBaixo">
 
 
-                        <Link className="ladoEsquerdo2" to={"/reservas"}>
+                        <Link className="ladoEsquerdo2" to={"/sala"}>
 
                             <img className="icone" src={calendario} alt="img" />
                             <h2>Reservar</h2>

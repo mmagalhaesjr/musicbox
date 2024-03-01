@@ -10,14 +10,16 @@ import 'swiper/css/scrollbar';
 
 
 import 'swiper/css/effect-cube';
-import { StyledBoxReservation } from './StyledBoxReserva';
+import { StyledEstruturaBoxsReserva } from './StyledEstruturaBoxsReserva';
 
 
 
-export default function BoxReserva(prop) {
+
+
+export default function EstruturaBoxsReserva(prop) {
     return (
 
-        <StyledBoxReservation cor={prop.cor}>
+        <StyledEstruturaBoxsReserva cor={prop.cor}>
 
             <Swiper
 
@@ -49,6 +51,6 @@ export default function BoxReserva(prop) {
 
             </Swiper>
             <h1>{prop.nome}</h1>
-        </StyledBoxReservation>
+        </StyledEstruturaBoxsReserva>
     )
 }

@@ -6,8 +6,13 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
-import BoxReserva from "../../Components/BoxReserva/BoxReserva";
 import { listaBoxes } from "../../constants/BoxesLista";
+import EstruturaBoxsReserva from "../../Components/EstruturaBoxsReserva/EstruturaBoxsReserva";
+
+
+
+
+
 
 
 export default function Reservation() {
@@ -29,7 +34,8 @@ export default function Reservation() {
             >
 
                 {listaBoxes.map((box) => (
-                    <BoxReserva key={box.nome}
+                    < EstruturaBoxsReserva key={box.nome}
+                  
                     nome={box.nome}
                     imagem={box.imagem}
                     cor={box.cor}
