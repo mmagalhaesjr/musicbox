@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledPictures = styled.section`
 width: 100%;
-height: 100vh;
+height: 80vh;
 background-color: #ffffff;
 background-color: #000000;
 

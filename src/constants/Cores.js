@@ -11,6 +11,9 @@ export const amareloEscuro = "#f3e230";
 export const azul = "#9059f7";
 export const azulEscuro = "#7633f3";
 
+export const roxo = "#a9028d";
+export const Escuroxoro = "#7b0067";
+
 // export const corSelecionado = [
 //     { verde: "#79f43b"},
 //     { verdeEscuro: "#61f119"},

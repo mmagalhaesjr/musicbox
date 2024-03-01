@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { amarelo, azul } from '../../constants/Cores';
+import { amarelo, rosa, roxo, verde } from '../../constants/Cores';
 
 export const StyledMenu = styled.section`
 width: 100%;
@@ -41,7 +41,7 @@ export const StyleCxComida = styled.section`
     width: 70%;
     height: 33%;
     border-radius: 10px;
-    background-color: ${azul};
+    background-color: ${roxo};
     border: solid 3px  #000000;
 }
 .p{
@@ -67,14 +67,14 @@ export const StyleCxBebida = styled.section`
     width: 70%;
     height: 33%;
     border-radius: 10px;
-    background-color: ${azul};
+    background-color: ${verde};
     border: solid 3px  #000000;
 }
 .p{
     width: 30%;
     height: 33%;
     border-radius: 10px;
-    background-color: ${amarelo};
+    background-color: ${rosa};
     border: solid 3px  #000000;
 }
 

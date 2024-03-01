@@ -23,27 +23,32 @@ export default function Reservation() {
 
 
     return (
-        <StyledReservation>
+
+        <>
             <Header />
+            <StyledReservation>
 
 
-            <div id='container'
-                data-aos="zoom-in-up"
-                data-aos-anchor-placement="bottom-bottom"
-                data-aos-duration="1500"
-            >
 
-                {listaBoxes.map((box) => (
-                    < EstruturaBoxsReserva key={box.nome}
-                  
-                    nome={box.nome}
-                    imagem={box.imagem}
-                    cor={box.cor}
-                    />
-                ))}
+                <div id="container"
+                    data-aos="zoom-in-up"
+                    data-aos-anchor-placement="bottom-bottom"
+                    data-aos-duration="800"
+                >
 
-            </div>
+                    {listaBoxes.map((box) => (
+                        < EstruturaBoxsReserva key={box.nome}
 
-        </StyledReservation>
+                            nome={box.nome}
+                            imagem={box.imagem}
+                            cor={box.cor}
+                        />
+                    ))}
+
+                </div>
+
+            </StyledReservation>
+        </>
+
     )
 }

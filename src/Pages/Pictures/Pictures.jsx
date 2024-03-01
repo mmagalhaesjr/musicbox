@@ -42,19 +42,17 @@ export default function Pictures() {
     return (
 
         <>
-  
+   <Header />
 
             <StyledPictures>
-            <Header />
+           
 
            
-            <div id='container'
-                    data-aos="zoom-in-up"
-                    data-aos-anchor-placement="bottom-bottom"
-                    data-aos-duration="1500"
+            <div id="container" 
+                      data-aos="zoom-in-up"
+                      data-aos-anchor-placement="bottom-bottom"
+                      data-aos-duration="800"
                 >
-                
-                {/* <div id='container'> */}
 
                     <Swiper
 
