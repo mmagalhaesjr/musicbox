@@ -1,7 +1,9 @@
+import EstruturaInfoSalas from "../../Components/EstruturaInfoSalas/EstruturaInfoSalas";
+
 export default function Sala7(){
     return(
         <>
-        sala7
+         <EstruturaInfoSalas />
         </>
     )
 }
