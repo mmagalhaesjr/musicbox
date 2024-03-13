@@ -1,38 +1,42 @@
 import { StyledBaixo, StyledCima, StyledEstrutura } from "./Styled";
 import Header from '../Header/Header';
 
-import sala1 from '../../assets/salas/1.png'
+
 import { FaWhatsapp } from "react-icons/fa";
 
-export default function EstruturaInfoSalas() {
+
+export default function EstruturaInfoSalas(prop) {
     return (
         <>
             <Header />
             <StyledEstrutura>
+               
+                    <StyledCima>
+                        <img src={prop.imagem} alt="" />
+                        <div id="texto">
+                            <h1>{prop.nome}</h1>
+                            {/* <p>{prop.capacidade}</p>
+                            <p>{prop.metros}</p>
+                            <p>{prop.info}</p> */}
+                        </div>
+                    </StyledCima>
+                    {/* ------------------------------------------ */}
+                    <StyledBaixo>
 
-                <StyledCima>
-                    <img src={sala1} alt="" />
-                    <div id="texto">
-                        <h1>SALA 1 </h1>
-                        <p>Capacidade: 10 pessoas</p>
-                        <p>Metragem: 100m²</p>
-                    </div>
-                </StyledCima>
-                {/* ------------------------------------------ */}
-                <StyledBaixo>
 
+                        <div id="contato">
+                            <h1>
+                                Reserve pelo Whatapp
+                            </h1>
+                            <FaWhatsapp className="icone" />
+                            <h1>
+                                ou ligue: (32 98888-8888)
+                            </h1>
 
-                    <div id="contato">
-                        <h1>
-                            Reserve pelo Whatapp
-                        </h1>
-                        <FaWhatsapp className="icone" />
-                        <h1>
-                            ou ligue: (32 98888-8888)
-                        </h1>
+                        </div>
+                    </StyledBaixo>
+                
 
-                    </div>
-                </StyledBaixo>
 
             </StyledEstrutura>
         </>

@@ -38,7 +38,7 @@ export default function Reservation() {
 
                     {listaBoxes.map((box) => (
                         < EstruturaBoxsReserva key={box.nome}
-
+                            link={`/sala/${box.id}`}
                             nome={box.nome}
                             imagem={box.imagem}
                             cor={box.cor}

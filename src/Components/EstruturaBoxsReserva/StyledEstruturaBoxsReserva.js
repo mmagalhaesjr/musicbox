@@ -37,7 +37,7 @@ export const StyledEstruturaBoxsReserva = styled.div`
 
 .swiper-slide img {
   display: block;
-  width: 50%;
+  width: 100%;
   height: 100%;
   border-radius: 10px;
   border: solid 3px #ffffff;

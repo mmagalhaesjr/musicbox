@@ -26,6 +26,13 @@ export const StyledCima = styled.div`
     align-items: center;
     justify-content: center;
 
+    a{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        background-color: blue;
+    }
+
     img{
         width: 50%;
         height: 100%;

@@ -1,9 +1,12 @@
 import EstruturaInfoSalas from "../../Components/EstruturaInfoSalas/EstruturaInfoSalas";
 
-export default function Sala1(){
+export default function Sala1(prop){
     return(
         <>
-        <EstruturaInfoSalas />
+        <EstruturaInfoSalas 
+            nome={prop.nome}
+            imagem={prop.imagem}
+         />
         </>
     )
 }

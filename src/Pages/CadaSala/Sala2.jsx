@@ -3,7 +3,9 @@ import EstruturaInfoSalas from '../../Components/EstruturaInfoSalas/EstruturaInf
 export default function Sala2(){
     return(
         <>
-        <EstruturaInfoSalas />
+        <EstruturaInfoSalas 
+           
+        />
         </>
     )
 }

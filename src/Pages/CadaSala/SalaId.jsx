@@ -18,7 +18,7 @@ export default function SalaId(){
 
 
 const salaComponentes = {
-    1: <Sala1 />,
+    1: <Sala1/>,
     2: <Sala2 />,
     3: <Sala3 />,
     4: <Sala4 />,
