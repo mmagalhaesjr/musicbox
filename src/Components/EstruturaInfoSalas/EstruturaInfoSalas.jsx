@@ -5,19 +5,21 @@ import Header from '../Header/Header';
 import { FaWhatsapp } from "react-icons/fa";
 
 
-export default function EstruturaInfoSalas(prop) {
+
+
+export default function EstruturaInfoSalas(p) {
     return (
         <>
             <Header />
             <StyledEstrutura>
                
                     <StyledCima>
-                        <img src={prop.imagem} alt="" />
+                        <img src={p.imagem} alt="" />
                         <div id="texto">
-                            <h1>{prop.nome}</h1>
-                            {/* <p>{prop.capacidade}</p>
-                            <p>{prop.metros}</p>
-                            <p>{prop.info}</p> */}
+                            <h1>{p.nome}</h1>
+                            <p>{p.capacidade}</p>
+                            <p>{p.metros}</p>
+                            <p>{p.info}</p>
                         </div>
                     </StyledCima>
                     {/* ------------------------------------------ */}
