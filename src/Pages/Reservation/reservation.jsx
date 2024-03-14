@@ -13,6 +13,7 @@ import ReservationStructure from "../../Components/ReservationStructure/Reservat
 
 
 export default function Reservation() {
+    
 
     useEffect(() => {
         AOS.init();

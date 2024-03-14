@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 
 
+
 export const StyledRoomsStructure = styled.section`
 
 width: 100%;
 height: 80vh;
-background-color: red;
 
 display: flex;
 flex-direction: column;
@@ -15,12 +15,14 @@ justify-content: center;
 
 
 
+
 `
 
 export const StyledCima = styled.div`
     width: 100%;
     height: 50%;
-    background-color: blue;
+    background-color: #000000;
+   
 
     display: flex;
     align-items: center;
@@ -30,9 +32,7 @@ export const StyledCima = styled.div`
         width: 100%;
         height: 100%;
         cursor: pointer;
-        background-color: blue;
     }
-
     img{
         width: 50%;
         height: 100%;
@@ -41,7 +41,6 @@ export const StyledCima = styled.div`
     #texto{
         width: 50%;
         height: 100%;
-        border: solid 2px red;
 
         display: flex;
         flex-direction: column;
@@ -49,11 +48,25 @@ export const StyledCima = styled.div`
         justify-content: center;
         gap: 20px;
     }
+    h1{
+        font-size: 3rem;
+    }
+    .info{
+        width: 80%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content:center;
+        gap: 10px;
+
+    }
 `
 export const StyledBaixo = styled.div`
     width: 100%;
     height: 50%;
-    background-color: orange;
+    background-color: #ffffff;
+    margin-top: 20px;
 
 #contato{
     width: 100%;
@@ -66,10 +79,12 @@ export const StyledBaixo = styled.div`
 }
 
     h1{
-        font-size: 2rem;
+        font-size: 3rem;
+        color: #000000;
     }
     .icone{
         font-size: 3rem;
+        color: #000000;
     }
 
    

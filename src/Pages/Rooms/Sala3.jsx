@@ -1,7 +1,13 @@
 import EstruturaInfoSalas from '../../Components/RoomsStructure/RoomsStructure';
 import { listaBoxes } from '../../constants/BoxesLista';
 
+
+
 export default function Sala3(){
+  
+    
+ 
+
     const sala = listaBoxes[2];
     return(
         <>
