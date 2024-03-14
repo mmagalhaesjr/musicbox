@@ -62,6 +62,10 @@ export const StyledReservationStructure = styled.div`
     /* padding: 5px;  */
     border-radius: 10px; 
     overflow: hidden; 
+
+    &:hover{
+      color: #000000; 
+    }
 }
 
 

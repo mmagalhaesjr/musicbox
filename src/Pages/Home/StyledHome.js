@@ -3,20 +3,18 @@ import { verde,verdeEscuro,rosa,rosaEscuro, } from "../../constants/Cores";
 
 
 export const StyledHome = styled.main`
-width: 100%;
-height: 80vh;
+    width: 100%;
+    height: 80vh;
 
-display: flex;
-align-items: center;
-justify-content: center;
-/* border: solid 3px #ffffff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid 3px #ffffff; */
 
 #container{
     width: 98%;
     height: 100%; 
 }
-
-
 `
 
 export const StyleParteCima = styled.section`
@@ -57,7 +55,7 @@ export const StyleParteCima = styled.section`
 .ladoDireito1 img:hover {
     filter: hue-rotate(50deg);
   }
-  .ladoDireito1:hover h3 {
+.ladoDireito1:hover h3 {
     opacity: 1;
   }
 
@@ -73,7 +71,7 @@ export const StyleParteBaixo = styled.section`
     justify-content: center;
     gap: 1%;
 
-    .ladoDireito2{
+.ladoDireito2{
     width: 40%;
     height: 100%;
     

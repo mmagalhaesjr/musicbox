@@ -15,7 +15,7 @@ export const listaBoxes = [
 
     {
         id: 1,
-        nome: 'Estrela do Microfone',
+        nome: 'A voz dos Mudos',
         imagem: img1,
         cor: verde,
         capacidade: '10',
@@ -25,7 +25,7 @@ export const listaBoxes = [
 
     {   
         id:2,
-        nome: 'Melodia Mágica',
+        nome: 'Galopeira',
         imagem: img2,
         cor: rosa,
         capacidade: '10',
@@ -35,7 +35,7 @@ export const listaBoxes = [
 
     {
         id:3,
-        nome: 'Cantando à Vontade',
+        nome: 'Canto Sofrido',
         imagem: img3, 
         cor: azul,
         capacidade: '10',
@@ -44,7 +44,7 @@ export const listaBoxes = [
     },
     {
         id:4,
-        nome: 'Palco da Alegria',
+        nome: 'Era melhor ser surdo',
         imagem: img4,
         cor: amarelo,
         capacidade: '10',
@@ -54,7 +54,7 @@ export const listaBoxes = [
 
     {
         id:5,
-        nome: 'Notas e Risos',
+        nome: 'Divo da Voz',
         imagem:img5,
         cor: verde,
         capacidade: '10',
@@ -64,7 +64,7 @@ export const listaBoxes = [
 
     {
         id:6,
-        nome: 'Karaoke Kool',
+        nome: 'Gogo de Ouro',
         imagem: img6,
         cor: rosa,
         capacidade: '10',
@@ -73,7 +73,7 @@ export const listaBoxes = [
     },
     {
         id:7,
-        nome: 'Serenata Divertida',
+        nome: 'Voz de Veludo',
         imagem: img7,
         cor: verde,
         capacidade: '10',
@@ -83,7 +83,7 @@ export const listaBoxes = [
 
     {
         id:8,
-        nome: 'Brilho Vocal',
+        nome: 'Cantata de Quenga ',
         imagem: img8,
         cor: azul,
         capacidade: '10',
