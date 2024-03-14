@@ -1,4 +1,4 @@
-import { StyledEstruturaBoxsReserva } from './StyledEstruturaBoxsReserva';
+import { StyledReservationStructure, } from './Styled';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCube, Pagination, Navigation, A11y } from 'swiper/modules';
@@ -15,10 +15,12 @@ import 'swiper/css/effect-cube';
 
 
 
-export default function EstruturaBoxsReserva(prop) {
+
+
+export default function ReservationStructure(prop) {
     return (
         <a href={prop.link} >
-            <StyledEstruturaBoxsReserva cor={prop.cor} >
+            <StyledReservationStructure cor={prop.cor} >
 
                 <Swiper
 
@@ -52,7 +54,7 @@ export default function EstruturaBoxsReserva(prop) {
 
                 </Swiper>
                 <h1>{prop.nome}</h1>
-            </StyledEstruturaBoxsReserva>
+            </StyledReservationStructure>
         </a>
     )
 }

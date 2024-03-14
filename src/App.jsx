@@ -6,7 +6,7 @@ import Reservation from './Pages/Reservation/reservation';
 import Menu from './Pages/Menu/Menu';
 import HomeContextProvider from './contexts/HomeContext';
 
-import SalaId from './Pages/CadaSala/SalaId';
+import SalaId from './Pages/Rooms/SalaId';
 
 
 

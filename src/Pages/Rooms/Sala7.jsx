@@ -1,11 +1,11 @@
-import EstruturaInfoSalas from '../../Components/EstruturaInfoSalas/EstruturaInfoSalas';
+import EstruturaInfoSalas from '../../Components/RoomsStructure/RoomsStructure';
 import { listaBoxes } from '../../constants/BoxesLista';
 
-export default function Sala1(){
-    const sala = listaBoxes[0];
-    return (
+export default function Sala7(){
+    const sala = listaBoxes[6];
+    return(
         <>
-         <EstruturaInfoSalas
+          <EstruturaInfoSalas
             key={sala.id}
             nome={sala.nome}
             imagem={sala.imagem}
@@ -15,5 +15,5 @@ export default function Sala1(){
             info={sala.info}
         />
         </>
-    );
+    )
 }

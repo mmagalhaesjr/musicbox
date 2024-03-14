@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledEstruturaBoxsReserva = styled.div`
+export const StyledReservationStructure = styled.div`
 
 
     width: 300px;

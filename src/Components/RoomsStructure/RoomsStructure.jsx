@@ -1,4 +1,4 @@
-import { StyledBaixo, StyledCima, StyledEstrutura } from "./Styled";
+import { StyledBaixo, StyledCima, StyledRoomsStructure } from "./Styled";
 import Header from '../Header/Header';
 
 
@@ -7,11 +7,11 @@ import { FaWhatsapp } from "react-icons/fa";
 
 
 
-export default function EstruturaInfoSalas(p) {
+export default function RoomsStructure(p) {
     return (
         <>
             <Header />
-            <StyledEstrutura>
+            <StyledRoomsStructure>
                
                     <StyledCima>
                         <img src={p.imagem} alt="" />
@@ -24,8 +24,6 @@ export default function EstruturaInfoSalas(p) {
                     </StyledCima>
                     {/* ------------------------------------------ */}
                     <StyledBaixo>
-
-
                         <div id="contato">
                             <h1>
                                 Reserve pelo Whatapp
@@ -40,7 +38,7 @@ export default function EstruturaInfoSalas(p) {
                 
 
 
-            </StyledEstrutura>
+            </StyledRoomsStructure>
         </>
 
     )

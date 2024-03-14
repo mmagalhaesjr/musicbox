@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 
-export const StyledEstrutura = styled.section`
+export const StyledRoomsStructure = styled.section`
 
 width: 100%;
 height: 80vh;

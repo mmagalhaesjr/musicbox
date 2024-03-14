@@ -1,16 +1,16 @@
 import { useParams } from 'react-router-dom';
 
 
-import Sala1 from '../CadaSala/Sala1'
-import Sala2 from '../CadaSala/Sala2';
-import Sala3 from '../CadaSala/Sala3';
-import Sala4 from '../CadaSala/Sala4';
-import Sala5 from '../CadaSala/Sala5';
-import Sala6 from '../CadaSala/Sala6';
-import Sala7 from '../CadaSala/Sala7';
-import Sala8 from '../CadaSala/Sala8';
-import Sala9 from '../CadaSala/Sala9';
-import Sala10 from '../CadaSala/Sala10';
+import Sala1 from './Sala1'
+import Sala2 from './Sala2';
+import Sala3 from './Sala3';
+import Sala4 from './Sala4';
+import Sala5 from './Sala5';
+import Sala6 from './Sala6';
+import Sala7 from './Sala7';
+import Sala8 from './Sala8';
+import Sala9 from './Sala9';
+import Sala10 from './Sala10';
 
 
 export default function SalaId(){
