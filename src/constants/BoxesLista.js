@@ -18,9 +18,9 @@ export const listaBoxes = [
         nome: 'A voz dos Mudos',
         imagem: img1,
         cor: verde,
-        capacidade: '10',
-        metros: '100',
-        info: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero."'
+        capacidade: ' 12',
+        metros: ' 90',
+        info: 'Bem-vindos a "A Voz dos Mudos"! Aqui, a música fala mais alto do que as palavras. Prepare-se para uma noite de celebração musical, onde todos são bem-vindos a cantar, compartilhar e se conectar. Pegue o microfone, deixe sua voz ecoar e junte-se a nós nesta jornada melódica!'
     },
 
     {   
@@ -28,9 +28,9 @@ export const listaBoxes = [
         nome: 'Galopeira',
         imagem: img2,
         cor: rosa,
-        capacidade: '10',
-        metros: '100',
-        info: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero."'
+        capacidade: ' 7',
+        metros: ' 70',
+        info: 'Bem-vindos à "Galopeira"! Aqui, a música cavalga livremente. Prepare-se para soltar a voz e embarcar em uma jornada musical única. Com um vasto repertório, todos são convidados a participar e se divertir. Venha viver essa experiência única conosco!'
     },
 
     {
@@ -38,18 +38,18 @@ export const listaBoxes = [
         nome: 'Canto Sofrido',
         imagem: img3, 
         cor: azul,
-        capacidade: '10',
-        metros: '100',
-        info: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero."'
+        capacidade: ' 8',
+        metros: ' 80',
+        info: 'Bem-vindos ao "Canto Sofrido"! Aqui, a música é a voz das emoções. Prepare-se para expressar suas mais profundas emoções através das canções. Pegue o microfone e deixe sua alma cantar!'
     },
     {
         id:4,
         nome: 'Era melhor ser surdo',
         imagem: img4,
         cor: amarelo,
-        capacidade: '10',
-        metros: '100',
-        info: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero."'
+        capacidade: ' 15',
+        metros: ' 90',
+        info: 'Bem-vindos à "Era Melhor Ser Surdo"! Aqui, a música vai além dos sons. Venha explorar a arte da expressão não verbal através da música. Pegue o microfone e deixe suas mãos, seus gestos, sua expressão contar sua história!'
     },
 
     {
@@ -57,9 +57,9 @@ export const listaBoxes = [
         nome: 'Divo da Voz',
         imagem:img5,
         cor: verde,
-        capacidade: '10',
-        metros: '100',
-        info: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero."'
+        capacidade: ' 10',
+        metros: ' 70',
+        info: 'Bem-vindos ao "Divo da Voz"! Aqui, as estrelas vocais brilham intensamente. Prepare-se para uma noite de performances deslumbrantes. Pegue o microfone e mostre seu talento como uma verdadeira diva ou divo da música!'
     },
 
     {
@@ -67,18 +67,18 @@ export const listaBoxes = [
         nome: 'Gogo de Ouro',
         imagem: img6,
         cor: rosa,
-        capacidade: '10',
-        metros: '100',
-        info: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero."'
+        capacidade: ' 5',
+        metros: ' 40',
+        info: 'Bem-vindos ao "Gogo de Ouro"! Aqui, a diversão é o tesouro. Prepare-se para uma noite de karaokê animada. Pegue o microfone e junte-se à festa!'
     },
     {
         id:7,
         nome: 'Voz de Veludo',
         imagem: img7,
         cor: verde,
-        capacidade: '10',
-        metros: '100',
-        info: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero."'
+        capacidade: ' 16',
+        metros: ' 80',
+        info: 'Bem-vindos à "Voz de Veludo"! Aqui, a música é suave como veludo. Prepare-se para uma noite encantadora de karaokê. Pegue o microfone e deixe sua voz envolver todos com sua suavidade!'
     },
 
     {
@@ -86,9 +86,9 @@ export const listaBoxes = [
         nome: 'Cantata de Quenga ',
         imagem: img8,
         cor: azul,
-        capacidade: '10',
-        metros: '100',
-        info: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero."'
+        capacidade: ' 20',
+        metros: ' 100',
+        info: 'Bem-vindos à "Cantata de Quenga"! Aqui, a música é sinônimo de amizade e diversão. Prepare-se para uma noite de karaokê animada. Pegue o microfone e junte-se à festa!'
     },
 
 ]
