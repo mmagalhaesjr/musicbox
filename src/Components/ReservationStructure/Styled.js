@@ -26,7 +26,8 @@ export const StyledReservationStructure = styled.div`
     background-position: center;
     background-size: cover;
     background-color: #fcfcfc69;
-    border: solid 2px #ffffff;
+    border: solid 5px #ffffff;
+    
 
     display: flex;
     flex-direction: column;
@@ -39,9 +40,6 @@ export const StyledReservationStructure = styled.div`
   display: block;
   width: 100%;
   height: 100%;
-  border-radius: 10px;
-  border: solid 3px #ffffff;
-
 }
 
 
@@ -68,7 +66,10 @@ export const StyledReservationStructure = styled.div`
     }
 }
 
-
+h1{
+  font-size: 1.2rem;
+  color: #000000;
+}
 
 
  @media(max-width:900px){
