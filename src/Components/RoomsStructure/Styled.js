@@ -33,11 +33,7 @@ export const StyledCima = styled.div`
         height: 100%;
         cursor: pointer;
     }
-    img{
-        width: 50%;
-        height: 100%;
-        border-radius: 10px;
-    }
+  
     #texto{
         width: 50%;
         height: 100%;
@@ -61,6 +57,44 @@ export const StyledCima = styled.div`
         gap: 10px;
 
     }
+
+#fotos{
+    width: 50%;
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+
+ color: #fff;
+ margin: 1%;
+ 
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  display: none;
+}
+
+.swiper {
+  
+    /* background-color: #101010; */
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
 `
 export const StyledBaixo = styled.div`
     width: 100%;

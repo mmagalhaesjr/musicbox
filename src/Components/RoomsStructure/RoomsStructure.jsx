@@ -1,6 +1,15 @@
 import { StyledBaixo, StyledCima, StyledRoomsStructure } from "./Styled";
 import Header from '../Header/Header';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css/effect-creative';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
+
+
 
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -19,11 +28,39 @@ export default function RoomsStructure(p) {
         <>
             <Header />
             <StyledRoomsStructure data-aos="zoom-in-up"
-                    data-aos-anchor-placement="bottom-bottom"
-                    data-aos-duration="800">
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="800">
+
 
                 <StyledCima>
-                    <img src={p.imagem} alt="img" />
+                    <div id="fotos">
+
+                    <Swiper
+                                modules={[EffectCreative, Navigation, Pagination, A11y]}
+                                navigation
+                                grabCursor={true}
+                                effect={'creative'}
+                                creativeEffect={{
+                                    prev: {
+                                        shadow: true,
+                                        translate: [0, 0, -400],
+                                    },
+                                    next: {
+                                        translate: ['100%', 0, 0],
+                                    },
+                                }}
+
+                                className="swiper-slide"
+                            >
+
+                            <SwiperSlide><img src={p.imagem} alt="img" /></SwiperSlide>
+                            <SwiperSlide><img src={p.imagem} alt="img" /></SwiperSlide>
+                            <SwiperSlide><img src={p.imagem} alt="img" /></SwiperSlide>
+                            
+                           
+                        </Swiper>
+
+                    </div>
                     <div id="texto">
                         <h1>{p.nome}</h1>
                         <div className="info">
@@ -33,7 +70,7 @@ export default function RoomsStructure(p) {
                             <p>{p.info}</p>
                         </div>
 
-                        
+
                     </div>
                 </StyledCima>
                 {/* ------------------------------------------ */}
