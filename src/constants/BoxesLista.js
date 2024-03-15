@@ -90,6 +90,24 @@ export const listaBoxes = [
         metros: ' 100',
         info: 'Bem-vindos à "Cantata de Quenga"! Aqui, a música é sinônimo de amizade e diversão. Prepare-se para uma noite de karaokê animada. Pegue o microfone e junte-se à festa!'
     },
+    {
+        id:9,
+        nome: 'Cantata de Quenga ',
+        imagem: img8,
+        cor: azul,
+        capacidade: ' 20',
+        metros: ' 100',
+        info: 'Bem-vindos à "Cantata de Quenga"! Aqui, a música é sinônimo de amizade e diversão. Prepare-se para uma noite de karaokê animada. Pegue o microfone e junte-se à festa!'
+    },
+    {
+        id:10,
+        nome: 'Cantata de Quenga ',
+        imagem: img8,
+        cor: azul,
+        capacidade: ' 20',
+        metros: ' 100',
+        info: 'Bem-vindos à "Cantata de Quenga"! Aqui, a música é sinônimo de amizade e diversão. Prepare-se para uma noite de karaokê animada. Pegue o microfone e junte-se à festa!'
+    },
 
 ]
 

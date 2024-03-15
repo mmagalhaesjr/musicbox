@@ -8,8 +8,6 @@ height: 80vh;
 background-color: #ffffff;
 background-color: #000000;
 
-overflow: hidden;
-
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -20,17 +18,34 @@ justify-content: center;
 /* border: solid 2px red; */
 
 #container{
-    width: 100%;
+    width: 90%;
     height: 100%;
     position: relative;
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 2%;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
+    overflow: auto;
+   
+    overflow-x: auto; 
+    overflow-x: auto; 
+    overflow-y: auto; 
 
-    /* border: solid 2px #ffffff; */
+    
+    &::-webkit-scrollbar {
+        width: 10px;
+        height: 10px; 
+    }
+
+    
+    &::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 5px;
+    }
+
+    /* border: solid 2px #ffffff;  */
 }
 
 
