@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const StyledReservationStructure = styled.div`
 
 
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     border-radius: 10px;
     background-color: ${prop => prop.cor};
    
@@ -15,8 +15,8 @@ export const StyledReservationStructure = styled.div`
     justify-content: center;
 
   .swiper { 
-    width: 200px;
-    height: 200px; 
+    width: 90%;
+    height: 85%; 
     margin-bottom: 2.5%;
 }
  
@@ -59,7 +59,7 @@ export const StyledReservationStructure = styled.div`
     height: 20px;
     /* padding: 5px;  */
     border-radius: 10px; 
-    overflow: hidden; 
+   
 
     &:hover{
       color: #000000; 
@@ -67,7 +67,7 @@ export const StyledReservationStructure = styled.div`
 }
 
 h1{
-  font-size: 1.2rem;
+  font-size: 2rem;
   color: #000000;
 }
 

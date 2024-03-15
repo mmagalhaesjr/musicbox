@@ -92,18 +92,18 @@ export const listaBoxes = [
     },
     {
         id:9,
-        nome: 'Cantata de Quenga ',
-        imagem: img8,
-        cor: azul,
+        nome: 'Voz Cansada',
+        imagem: img2,
+        cor: verde,
         capacidade: ' 20',
         metros: ' 100',
         info: 'Bem-vindos à "Cantata de Quenga"! Aqui, a música é sinônimo de amizade e diversão. Prepare-se para uma noite de karaokê animada. Pegue o microfone e junte-se à festa!'
     },
     {
         id:10,
-        nome: 'Cantata de Quenga ',
-        imagem: img8,
-        cor: azul,
+        nome: 'Box Maluco ',
+        imagem: img5,
+        cor: rosa,
         capacidade: ' 20',
         metros: ' 100',
         info: 'Bem-vindos à "Cantata de Quenga"! Aqui, a música é sinônimo de amizade e diversão. Prepare-se para uma noite de karaokê animada. Pegue o microfone e junte-se à festa!'

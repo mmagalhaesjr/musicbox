@@ -18,7 +18,7 @@ justify-content: center;
 /* border: solid 2px red; */
 
 #container{
-    width: 90%;
+    width: 95%;
     height: 100%;
     position: relative;
 
