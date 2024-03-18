@@ -1,5 +1,6 @@
 import { StyleCxBebida, StyleCxComida, StyledMenu } from "./StyledMenu";
 import Header from '../../Components/Header/Header';
+import Icones from "../../Components/Icones/Icones";
 
 
 export default function Menu() {
@@ -64,6 +65,7 @@ export default function Menu() {
                     </StyleCxBebida>
 
                 </div>
+                <Icones />
             </StyledMenu>
         </>
 

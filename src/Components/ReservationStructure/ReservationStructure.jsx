@@ -32,7 +32,7 @@ export default function ReservationStructure(prop) {
                         shadow: true,
                         slideShadows: true,
                         shadowOffset: 50,
-                        shadowScale: 0.94,
+                        shadowScale: 0,
 
                     }}
                     navigation={true}

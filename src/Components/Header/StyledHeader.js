@@ -54,5 +54,17 @@ a img{
    border-radius: 3px;
 }
 
+@media(max-width:500px){
+    #caixalinks{
+    width: 80%;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+}
+}
+
 
 `

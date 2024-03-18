@@ -28,6 +28,7 @@ import foto6 from '../../assets/fotos/6.jpg'
 
 
 import Header from '../../Components/Header/Header';
+import Icones from '../../Components/Icones/Icones';
 
 
 
@@ -118,7 +119,7 @@ export default function Pictures() {
 
                 </div>
               
-
+                <Icones />
             </StyledPictures>
         </>
 

@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 
 import { listaBoxes } from "../../constants/BoxesLista";
 import ReservationStructure from "../../Components/ReservationStructure/ReservationStructure";
+import Icones from "../../Components/Icones/Icones";
 
 
 
@@ -44,7 +45,7 @@ export default function Reservation() {
                     ))}
 
                 </div>
-
+                <Icones />
             </StyledReservation>
         </>
 

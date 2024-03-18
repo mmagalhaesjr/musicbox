@@ -9,10 +9,12 @@ import 'aos/dist/aos.css';
 
 import { Link } from "react-router-dom";
 
+import musicbox from '../../assets/icones/cubos.gif'
 import cantores from '../../assets/cantores.jpg';
 import calendario from '../../assets/icones/calendario.png'
 import cardapio from '../../assets/icones/cardapio.png'
-import musicbox from '../../assets/icones/musicbox.gif'
+
+import Icones from "../../Components/Icones/Icones";
 
 
 export default function Home() {
@@ -75,6 +77,8 @@ export default function Home() {
 
                     </StyleParteBaixo>
                 </div >
+
+                <Icones />
 
             </StyledHome >
         </>
