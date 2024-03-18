@@ -37,11 +37,12 @@ justify-content: center;
     &::-webkit-scrollbar {
         width: 10px;
         height: 10px; 
+        border: solid 2px #88888814;
     }
 
     
     &::-webkit-scrollbar-thumb {
-        background-color: #888;
+        background-color: #88888830;
         border-radius: 5px;
     }
 
